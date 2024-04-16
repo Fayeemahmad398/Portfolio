@@ -1,0 +1,77 @@
+.fayeem-navbar {
+  /* box-shadow: 0px 0px 3px red !important; */
+}
+.my-toggler {
+  font-size: 13px !important;
+  transition: 1s;
+  color: #3399e3 !important;
+
+}
+.my-toggler:focus {
+  box-shadow: none !important;
+}
+.navbar-brand {
+  font-size: 26px;
+  color: #3399e3 !important;
+
+  
+}
+
+.navbar-brand:hover {
+  color: #3399e3 !important;
+}
+.nav-item {
+  font-size: 18px;
+  margin: 0px 15px !important;
+}
+.nav-link {
+  color: #3399e3 !important;
+
+
+
+}
+.nav-link:hover {
+  color: red !important;
+}
+.nav-item::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0px;
+  transition: 600ms;
+}
+.nav-item:hover::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 65px;
+  background: red;
+  margin: 0px 3px;
+}
+.resume-btn {
+  background: rgb(242, 61, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  color: #fff;
+}
+.resume-btn:hover {
+  color: #fff;
+  background: rgb(246, 88, 88);
+  border-radius: 10px;
+}
+.resume-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 350px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .my-toggler {
+    font-size: 10px !important;
+  }
+}

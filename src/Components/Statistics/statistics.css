@@ -1,0 +1,31 @@
+.all-statistics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.all-statistics > div > div:nth-of-type(even) {
+  color: red;
+}
+
+.statistics-box {
+  display: flex;
+  box-shadow: 0px 0px 3px red;
+  gap: 7px;
+  width: 300px;
+  font-size: 23px;
+  justify-content: center;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .all-statistics {
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  .statistics-box{
+    width: auto;
+  } 
+}
